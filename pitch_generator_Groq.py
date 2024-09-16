@@ -57,6 +57,7 @@ else:
             'Painpoint': painpoint,
             'Persona': persona,
             'Value Proposition': valueproposition,
+            'Email': access
         }
 
         airtable.create(new_record)
